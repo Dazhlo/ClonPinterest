@@ -1,11 +1,26 @@
 body{
-    background-color: bisque;
+    margin: 0%;
 }
-.principal{
+
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.logo{
+    display: flex;
+    counter-reset: ;
+
+
+}
+.logo img{
+    height: 100px;
+    
+}
+.name{
     color: brown;
-display: flex;
-justify-content: center;
-height: 1opx;
-    background-color: azure;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
